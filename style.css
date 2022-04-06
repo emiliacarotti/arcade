@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Titan+One&display=swap');
+
+body{
+    background: #eee;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Titan One', cursive;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+h2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width: 80%;
+}
+
+h2 > div{
+    white-space: nowrap;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+}
+
+h2 > div > button{
+    font-family: 'Fredoka One', cursive;
+    border: none;
+    font-size: 30px;
+}
+
+h2 > div > form > input{
+    font-family: 'Fredoka One', cursive;
+    border: none;
+    font-size: 30px;
+    outline: none !important;
+    text-align: center;
+    width: 300px;
+}
+
+h2 > div > button:hover{
+    color: rgb(177, 9, 9);
+    cursor: pointer;
+}
+
+h2 > div > form > button:hover{
+    color: rgb(177, 9, 9);
+    cursor: pointer;
+}
+
+h3{
+    flex: 1 1 100%;
+    margin-bottom: 0px;
+}
+
+h3 > button{
+    text-align: center;
+    font-size: 50px;
+    width: 40px;
+    height: 40px;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    margin-top: 0px;
+}
+
+td{
+    text-align: center;
+    font-size: 50px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+}
+
+#p1Name{
+    font-family: 'Fredoka One', cursive;
+}
+
+#p2Name{
+    font-family: 'Fredoka One', cursive;
+}
+
+#addNameOneInput{
+    color: red;
+    width: 300px;
+    height: 50px;
+    border: none;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: none !important;
+    margin-left: 20px;
+}
+
+#addNameTwoInput{
+    color: red;
+    width: 300px;
+    height: 50px;
+    border: none;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    outline: none !important;
+    margin-left: 20px;
+}
+
+#addNamesButton{
+    display: none;
+}
